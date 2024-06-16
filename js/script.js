@@ -71,6 +71,7 @@ function CreateGameManager(){
                 }
             }
             if(array.every(x=>x !== "")){
+                alert(`Draw!`)
                 resetGame()
             }
         }
